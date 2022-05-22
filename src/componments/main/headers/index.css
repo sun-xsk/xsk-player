@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headers {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  line-height: 40px;
+}
+
+.left {
+  color: #b9b9b9;
+  transition: color 0.5s;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.right {
+  color: #b9b9b9;
+  transition: color 0.5s;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.search {
+  color: #b9b9b9;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+
+.music {
+  cursor: pointer;
+  transition: color 0.3s;
+  position: absolute;
+  margin-left: 260px;
+  font-weight: 100;
+  font-size: 25px;
+  color: #838383;
+}
+
+.name {
+  display: inline-block;
+  transition: color .3s;
+  position: absolute;
+  right: 140px;
+  bottom: 20px;
+  color: #7b7b7b;
+  font-size: 17px;
+  font-weight:bold;
+}
+
+.img1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    right: 190px;
+    top: 20px;
+    transition: color .3s;
+    cursor: pointer;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7b7b7b;
+    line-height: 40px;
+}
+
+.more {
+    transition: color .3s;
+    cursor: pointer;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7b7b7b;
+    right: 100px;
+    top: 21.5px;
+    line-height: 40px;
+}
+
+.more2{
+    transition: color .3s;
+    cursor: pointer;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7b7b7b;
+    right: 20px;
+    top: 21.5px;
+    line-height: 40px;
+}
+
+
+.cloth{
+    transition: color .3s;
+    cursor: pointer;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7b7b7b;
+    right: 60px;
+    top: 21.5px;
+    line-height: 40px;
+}
+
+.cloth:hover{
+  color: #81eed8;
+}
+
+.more:hover{
+  color: #81eed8;
+}
+
+.more2:hover{
+  color: #81eed8;
+}
+
+.name:hover{
+  color: #81eed8;
+  cursor: pointer;
+}
+
+.left:hover {
+  color: #81eed8;
+}
+
+.right:hover {
+  color: #81eed8;
+}
+
+.search:hover {
+  color: #81eed8;
+}
+
+.music:hover {
+  color: #81eed8;
+}
+
+.input {
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  background-color: #e0e0e0;
+  line-height: 40px;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+
+.cont {
+  width: 150px;
+  padding: 0;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  margin-bottom: 4px;
+  background-color: #e0e0e0;
+  border: none;
+  outline: medium;
+  margin-left: 20px;
+  font-size: 15px;
+}

@@ -1,0 +1,22 @@
+.search-father{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.search-title{
+    margin: 0 0 20px 0;
+    display: flex;
+}
+
+.search-title>span{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.search-title-checked{
+    color: #1ecd98;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #1ecd98;
+}

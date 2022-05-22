@@ -1,0 +1,22 @@
+.con2-select-titlebox{
+    margin-top:30px;
+}
+
+.cont2-select-title{
+    font-size:22px;
+    font-weight:500;
+}
+
+.cont2-select-title2{
+    font-size:13px;
+    margin-left:15px;
+    vertical-align: middle;
+    color:#7b7b7b;
+}
+
+.cont2-select-boxs{
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

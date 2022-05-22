@@ -1,0 +1,76 @@
+.queue {
+  position: fixed;
+  width: 0px;
+  height: 100%;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 0 15px 1px #bebdbd;
+  overflow: hidden;
+  transition: width 0.5s;
+  display: grid;
+  grid-template-rows: 100px auto 80px;
+  z-index: 5;
+  top: 0;
+}
+
+.isopen {
+  width: 300px;
+}
+
+.queue-header {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.queue-header-section{
+    display:flex;
+    justify-content:space-between;
+}
+
+.queue-number{
+    margin-top: 5px;
+    color: gray;
+    font-size: 12px;
+}
+
+.queue-active>span{
+    color:gray;
+    margin-left:16px;
+    transition:color 0.2s;
+    cursor: pointer;
+}
+
+.queue-active>span:hover{
+    color: #1ecd98;
+}
+
+.queue-inner {
+    overflow-y: scroll;
+}
+
+.queue-footer{
+    box-sizing: border-box;
+    padding: 8px 20px;
+    height: 62px;
+    position: relative;
+}
+
+.queue-bar{
+    width: 100%;
+    height: 2px;
+    background-color: #1ecd98;
+}
+
+.queue-close{
+    font-size:13px;
+    color:gray;
+    position: absolute;
+    right: 25px;
+    bottom: 13px;
+    transition:color .2s;
+    cursor: pointer;
+}
+
+.queue-close:hover{
+    color: #1ecd98;
+}

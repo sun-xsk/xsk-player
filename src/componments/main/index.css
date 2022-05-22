@@ -1,0 +1,25 @@
+.main{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 210px auto;
+    grid-template-rows: 80px auto 80px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@font-face {
+    font-family: "iconfont"; /* Project id 3366754 */
+    src: url('../../../public/download/iconfont.woff2?t=1545807318834') format('woff2'),
+         url('../../../public/download/iconfont.woff?t=1545807318834') format('woff'),
+         url('../../../public/download/iconfont.ttf?t=1545807318834') format('truetype');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  

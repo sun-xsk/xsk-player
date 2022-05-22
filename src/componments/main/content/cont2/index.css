@@ -1,0 +1,26 @@
+.cont2-father{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.cont2-title{
+    margin: 0 0 20px 0;
+    display: flex;
+}
+
+.cont2-title>a{
+    font-size: 15px;
+    font-weight:600;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.cont2-title>.active{
+    color: #1ecd98;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #1ecd98;
+}

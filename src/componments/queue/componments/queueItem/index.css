@@ -1,0 +1,78 @@
+.queue-item-father{
+    width: 250px;
+    height: 70px;
+    display:flex;
+    padding: 13px 0 0 20px;
+    justify-content:space-between
+}
+
+.queue-item-left{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+
+.queue-item-albumname{
+    font-size: 14px;
+    width: 165px;
+}
+
+.queue-item-name{
+    color: #8b8b8b;
+    font-size:12px;
+    width: 165px;
+}
+
+.ellipsis2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor:default;
+}
+
+.queue-item-right{
+    display:flex;
+    align-items:center;
+    color: #8b8b8b;
+    font-size:12px;
+}
+
+.queue-item-right-item1{
+  position: relative;
+}
+
+.queue-item-right-item2{
+    position: relative;
+    background-color: white;
+    display:none;
+}
+
+.queue-item-right-item2>span{
+    padding: 2px;
+    cursor: pointer;
+}
+
+.queue-item-father:hover .queue-item-right-item2{
+    display: inline-block;
+}
+
+.queue-item-father:hover .queue-item-right-item1{
+    display: none;
+}
+
+.green:hover{
+    color: #1ecd98;
+}
+
+
+.isChecked>div{
+    color: #1ecd98;
+}
+
+.isChecked2{
+    display: inline-block; 
+}
+
+.isChecked3{
+    display:none;
+}
