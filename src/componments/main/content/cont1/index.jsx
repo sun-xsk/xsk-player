@@ -15,16 +15,17 @@ export default class cont1 extends Component {
   };
 
   componentDidMount() {
-    axios.get("https://www.yushangyun.top:4000/recommend").then((res) => {
-      this.setState({ result1: res.data.result, isLoading: false });
+    axios.get("https://www.yushangyun.top:4005/recommend").then((res) => {
+      this.setState({ result1: res.data.result.playlists, isLoading: false });
     });
 
-    axios.get("https://www.yushangyun.top:4000/randomSongs").then((res) => {
+    axios.get("https://www.yushangyun.top:4005/randomSongs").then((res) => {
       this.setState({ result2: res.data.result });
     });
   }
 
   render() {
+
     const { isLoading, result1, result2 } = this.state;
     const arr1 = result1.slice(0, 12);
     const arr2 = result1.slice(12, 18);
@@ -34,7 +35,8 @@ export default class cont1 extends Component {
     const arr6 = result2.slice(6, 10);
     return isLoading ? (
       <div>加载中...</div>
-    ) : (
+    ) 
+    : (
       <div className="cont1-father">
         <h1>推荐</h1>
         <div className="cont1-title">Hi 今日为你推荐</div>

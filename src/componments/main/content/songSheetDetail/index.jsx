@@ -14,7 +14,7 @@ class SongSheetDetail extends Component {
   getDetails() {
     let id = this.props.params.id;
     axios
-      .get(`https://www.yushangyun.top:4000/songsDetail?id=${id}`)
+      .get(`https://www.yushangyun.top:4005/songsDetail?id=${id}`)
       .then((res) => {
         this.setState({
           isLoading: false,

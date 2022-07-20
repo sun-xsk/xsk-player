@@ -12,7 +12,7 @@ export default class select extends Component {
   };
 
   componentDidMount() {
-    axios.get("https://www.yushangyun.top:4000/playLists?offset=0").then((res) => {
+    axios.get("https://www.yushangyun.top:4005/playLists?offset=0").then((res) => {
       this.setState({ result: res.data.result.playlists, isLoading: false });
     });
 
